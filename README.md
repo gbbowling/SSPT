@@ -1,10 +1,10 @@
 # SSPT
 **SSPT** is a simple stellar population (SSP) module for CIGALE implementing temperature-dependent stellar initial mass functions.
 
-SSPT and its associated stellar population libraries are described in **G. B. Bowling et al. (2026)**, link coming soon.
+SSPT and its associated stellar population library is described in **G. B. Bowling et al. (2026)**, link coming soon.
 
 ## SSP libraries
-The precomputed SSPT stellar population libraries are hosted on Harvard Dataverse: [link](https://dataverse.harvard.edu/dataverse/sspt)
+The precomputed SSPT stellar population library are hosted on Harvard Dataverse: [link](https://dataverse.harvard.edu/dataverse/sspt)
 
 The library spans:
 - Effective star-forming gas temperatures \(T_{\rm g}=20\)--80 K in 1 K steps
