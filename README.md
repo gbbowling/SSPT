@@ -3,7 +3,7 @@
 
 SSPT and its associated stellar population library is described in **G. B. Bowling et al. (2026)**, link coming soon.
 
-## SSP libraries
+## SSP Library
 The precomputed SSPT stellar population library are hosted on Harvard Dataverse: [link, current version: v1](https://dataverse.harvard.edu/dataverse/sspt)
 
 The library spans:
