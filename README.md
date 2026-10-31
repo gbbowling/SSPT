@@ -7,8 +7,8 @@ SSPT and its associated stellar population library is described in **G. B. Bowli
 The precomputed SSPT stellar population library are hosted on Harvard Dataverse: [link, current version: v1](https://dataverse.harvard.edu/dataverse/sspt)
 
 The library spans:
-- Effective star-forming gas temperatures $T_{\rm g}=20$--80 K in 1 K steps
-- Stellar metallicities $Z_\star \in \left\{ 0.0004,\ 0.0012,\ 0.008,\ 0.02,\ 0.05 \right\}$
+- Effective star-forming gas temperatures $T_{\rm g}=20\text{--}80\,{\rm K}$ in 1 K steps
+- Stellar metallicities $Z_\star \in \left\{0.0004,\ 0.0012,\ 0.008,\ 0.02,\ 0.05\right\}$
 - SSP ages from 1 Myr to 13.7 Gyr in 1 Myr steps
 
 ## Installation
