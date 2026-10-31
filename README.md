@@ -14,8 +14,7 @@ The library spans:
 ### Installation
 Installation instructions for the SSPT library and its CIGALE implementation are provided in [`INSTALL`](INSTALL). Once SSPT is installed in CIGALE it is configurable as any other SED module.
 
-### Citation
+### Citation & License
 If you use SSPT in your work, please cite G. B. Bowling et al. (2026), link coming soon.
 
-### License
 SSPT is distributed under the CeCILL Free Software License Agreement v2.0. See [`LICENSE`](LICENSE) for details.
