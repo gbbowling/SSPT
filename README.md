@@ -12,7 +12,7 @@ The library spans:
 - SSP ages from 1 Myr to 13.7 Gyr in 1 Myr steps
 
 ## Installation
-Installation instructions for the SSPT library and CIGALE implementation are provided in [`INSTALL`](INSTALL).
+Installation instructions for the SSPT library and its CIGALE implementation are provided in [`INSTALL`](INSTALL).
 
 ## Citation
 If you use SSPT in your work, please cite G. B. Bowling et al. (2026), link coming soon.
