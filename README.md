@@ -4,7 +4,7 @@
 SSPT and its associated stellar population library is described in **G. B. Bowling et al. (2026)**, link coming soon.
 
 ## SSP Library
-The precomputed SSPT stellar population library are hosted on Harvard Dataverse: [link, current version: v1](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded prior to installation.
+The precomputed SSPT stellar population library are hosted on [Harvard Dataverse (current version: v1)](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded prior to installation.
 
 The library spans:
 - Effective star-forming gas temperatures from 20 K to 80 K in 1 K steps
