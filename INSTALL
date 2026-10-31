@@ -1,0 +1,12 @@
+Installation of SSPT in CIGALE is straightforward, see below.
+
+0. Ensure that your installation of CIGALE is in order, and download the SSPT library files (all of them).
+1. In CIGALE's `database_builder` directory, create a new directory called `sspt` and place the `__init.py__` file in the SSPT GitHub repository there.
+2. Inside of the new `sspt` directory, create a new directory called `data` and place the SSPT library files there.
+3. Return to the `database_builder` directory and edit its `__init__.py` file (note that this is the one natively present in CIGALE, not the one in the `sspt` directory) by adding the following lines:
+    - `from .sspt import build as build_sspt` with the rest of the build function imports
+    - `build_sspt(agemax)` with the rest of the build function calls
+4. In CIGALE's `pcigale/sed_modules` directory, add `sspt.py`.
+5. Rebuild CIGALE's database. E.g., while in the appropriate conda environment, open python in the terminal while in the CIGALE home directory and run `from database_builder import build_base; build_base()`. This will populate the files CIGALE needs to use the library in `pcigale/data/sspt`, so there is no need to create this directory yourself. This may take some time because there are many library files (on my machine it took 7 minutes to build SSPT).
+
+Once this completes, SSPT is ready to be configured in CIGALE's `pcigale.ini` file as any other SED module, though it is not listed inside as an option. So long as the database builds successfully and SSPT is listed among the SSP modules after running `pcigale init`, SSPT is useable inside of CIGALE.
