@@ -1,5 +1,5 @@
-## SSPT
-**SSPT** is a simple stellar population (SSP) module for [CIGALE](https://cigale.lam.fr/) implementing temperature-dependent stellar initial mass functions.
+## Simple Stellar Populations with Temperature
+Simple Stellar Populations with Temperature (SSPT) is a simple stellar population (SSP) module for [CIGALE](https://cigale.lam.fr/) implementing temperature-dependent stellar initial mass functions.
 
 SSPT and its associated stellar population library is described in G. B. Bowling et al. (2026), link coming soon.
 
