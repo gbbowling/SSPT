@@ -1,10 +1,10 @@
 ## Simple Stellar Populations with Temperature (SSPT)
 Simple Stellar Populations with Temperature (SSPT) is a simple stellar population (SSP) module for [CIGALE](https://cigale.lam.fr/) implementing temperature-dependent stellar initial mass functions.
 
-SSPT and its associated stellar population library is described in G. B. Bowling et al. (2026), link coming soon.
+SSPT and its associated SSP library are described in G. B. Bowling et al. (2026), link coming soon.
 
 ### SSP Library
-The precomputed SSPT stellar population library is hosted on [Harvard Dataverse (current version: v1)](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded in full.
+The precomputed SSP library is hosted on [Harvard Dataverse (current version: v1)](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded in full before use in CIGALE, but they can be used as a general SSP library as well.
 
 The library spans:
 - Effective star-forming gas temperatures from 20 K to 80 K in 1 K steps
@@ -15,6 +15,6 @@ The library spans:
 Installation instructions for the SSPT library and its CIGALE implementation are provided in [`INSTALL`](INSTALL). Once SSPT is installed in CIGALE it is configurable as any other SED module.
 
 ### Citation & License
-If you use SSPT in your work, please cite G. B. Bowling et al. (2026), link coming soon.
+If you use SSPT or its CIGALE implementation in your work, please cite G. B. Bowling et al. (2026), link coming soon.
 
 SSPT is distributed under the CeCILL Free Software License Agreement v2.0. See [`LICENSE`](LICENSE) for details.
