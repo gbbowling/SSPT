@@ -4,7 +4,7 @@
 SSPT and its associated stellar population library is described in **G. B. Bowling et al. (2026)**, link coming soon.
 
 ## SSP Library
-The precomputed SSPT stellar population library are hosted on [Harvard Dataverse (current version: v1)](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded in full.
+The precomputed SSPT stellar population library is hosted on [Harvard Dataverse (current version: v1)](https://dataverse.harvard.edu/dataverse/sspt). The library files should be downloaded in full.
 
 The library spans:
 - Effective star-forming gas temperatures from 20 K to 80 K in 1 K steps
@@ -12,7 +12,7 @@ The library spans:
 - SSP ages from 1 Myr to 13.7 Gyr in 1 Myr steps
 
 ## Installation
-Installation instructions for the SSPT library and its CIGALE implementation are provided in [`INSTALL`](INSTALL).
+Installation instructions for the SSPT library and its CIGALE implementation are provided in [`INSTALL`](INSTALL). Once SSPT is installed in CIGALE it is configurable as any other SED module.
 
 ## Citation
 If you use SSPT in your work, please cite G. B. Bowling et al. (2026), link coming soon.
