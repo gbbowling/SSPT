@@ -9,7 +9,7 @@ from pcigale.utils.counter import Counter
 
 
 def build(agemax=13700):
-    console.rule("Bowling et al. (2026) SSPs w/ Temperature-Dependent IMF")
+    console.rule("Bowling et al. (2026) SSPs with Temperature-Dependent IMFs")
 
     path = Path(__file__).parent / "data"
 
@@ -53,9 +53,7 @@ def build(agemax=13700):
 
     for key, imf in combinations:
 
-        ### skip combinations that do not exist yet
-        ### should not happen, everything should be in order
-        ### keep here just in case
+        ### skip combinations that do not exist
         if (key, imf) not in available_models:
             counter.inc()
             continue
@@ -69,8 +67,6 @@ def build(agemax=13700):
         info = ssp["info"]
         spectra = ssp["spec"]
 
-        ### limit SSP age range if necessary
-        ### shouldn't be, but keep as a guardrail anyway
         age_mask = time_grid <= agemax
 
         time_grid = time_grid[age_mask]
