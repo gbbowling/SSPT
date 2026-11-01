@@ -1,6 +1,3 @@
-### this is the SED module for the Bowling+2026 stellar populations
-### computed with a temperature-dependent initial mass function 
-
 import numpy as np
 
 from pcigale.data import SimpleDatabase as Database
